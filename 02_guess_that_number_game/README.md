@@ -3,9 +3,9 @@
 Key concepts introduced
 =================
 
-**String formatting**
+**String formatting using f-strings**
 
-`"Your number was {}.".format(num)`
+`f"Your number was {num}."`
 
 **Conditionals**
 
