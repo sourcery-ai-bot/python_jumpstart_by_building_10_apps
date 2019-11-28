@@ -4,4 +4,3 @@
 * building 10 apps 
 * editor VS Code 
 * PyCharm full IDE
-* 
