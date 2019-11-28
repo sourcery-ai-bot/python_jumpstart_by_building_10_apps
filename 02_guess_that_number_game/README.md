@@ -36,11 +36,11 @@ Random numbers are generated using the `randint()` method in the random module. 
 
 **Truthiness**
 
-False # false is false 
-[] # empty lists / arrays are false 
-{} # empty dictionaries are false 
-"" # empty strings are false 
-0  # zero ints are false 
-0.0 # zero folast are false 
-None # Non / null / nil pointers are false 
-* everything else it true! 
+    False # false is false 
+    [] # empty lists / arrays are false 
+    {} # empty dictionaries are false 
+    "" # empty strings are false 
+    0  # zero ints are false 
+    0.0 # zero folast are false 
+    None # Non / null / nil pointers are false 
+    Everything else it true! 
