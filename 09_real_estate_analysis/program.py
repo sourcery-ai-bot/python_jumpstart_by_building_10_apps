@@ -15,9 +15,16 @@ def get_data_file():
 
 def load_file(filename):
     with open(filename, "r", encoding="utf-8") as fin:
+        header = fin.readline().strip()
+        print(f"found header: {header}")
+
+        lines = []
+
         for line in fin:
-            print(line)
-            break
+            line_data = line.strip().split(",")
+            lines.append(line_data)
+
+        print(lines[:6])
 
 
 def query_data(data):
