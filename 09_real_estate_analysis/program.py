@@ -26,7 +26,6 @@ def load_file(filename):
         for row in reader:
             p = data_types.Purchase.create_from_dict(row)
             purchases.append(p)
-
         return purchases
 
         # print(purchases[0].__dict__)
