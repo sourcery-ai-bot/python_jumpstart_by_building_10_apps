@@ -1,5 +1,5 @@
 lookup = {}
-lookup = dict()
+lookup = {}
 lookup = {"age": 42, "loc": "Italy"}
 lookup = dict(age=42, loc="Italy")
 

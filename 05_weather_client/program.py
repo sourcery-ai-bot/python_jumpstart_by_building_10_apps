@@ -13,8 +13,7 @@ def print_header():
 def get_html_from_web(zipcode):
     url = f"http://www.wunderground.com/weather-forecast/{zipcode}"
     print(url)
-    response = requests.get(url)
-    return response
+    return requests.get(url)
 
 
 def get_weather_from_html(html):
@@ -45,8 +44,7 @@ def cleanup_text(text: str):  # type hinting
     if not text:  # error checking usint truthy values
         return text
 
-    text = text.strip()
-    return text
+    return text.strip()
 
 
 def find_city_and_state_from_location(loc):

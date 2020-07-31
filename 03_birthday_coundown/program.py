@@ -13,8 +13,7 @@ def get_birthday_from_user():
     year = int(input("Year [YYYY]: "))
     month = int(input("Month [MM]: "))
     day = int(input("Day [DD]: "))
-    birthday = datetime.date(year, month, day)
-    return birthday
+    return datetime.date(year, month, day)
 
 
 def compute_days_between_dates(original_date, target_date):

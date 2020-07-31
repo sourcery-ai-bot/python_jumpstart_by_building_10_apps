@@ -28,8 +28,7 @@ def save(name, journal_data):
 
 
 def get_full_pathname(name):
-    filename = os.path.abspath(os.path.join(".", "journals", name + ".jrl"))
-    return filename
+    return os.path.abspath(os.path.join(".", "journals", name + ".jrl"))
 
 
 def add_entry(text, journal_data):
